@@ -1,0 +1,180 @@
+/* ----- Universal elements ----- */
+* {
+  box-sizing: border-box;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  
+}
+
+/* ----- Header specific elements ----- */
+header {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background: #2196f3;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 240px;
+  border-radius: 50%;
+  border: 0.4em solid rgba(255, 255, 255, 0.75);
+    border-top-color: rgba(255, 255, 255, 0.75);
+    border-top-style: solid;
+    border-top-width: 0.4em;
+    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-style: solid;
+    border-right-width: 0.4em;
+    border-bottom-color: rgba(255, 255, 255, 0.75);
+    border-bottom-style: solid;
+    border-bottom-width: 0.4em;
+    border-left-color: rgba(255, 255, 255, 0.75);
+    border-left-style: solid;
+    border-left-width: 0.4em;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.header-h1 {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  margin: 0; 
+}
+
+.head-h3  {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header-hr {
+  border: 2px solid white;
+  max-width: 250px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ----- About me specific elements ----- */
+.about-me {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+  padding: 40px;
+  text-align: left;
+  color: #285172;
+}
+
+.about-me-h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #285172;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-me-hr {
+  border: 2px solid #285172;
+  max-width: 250px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* ----- Contact me specific elements ----- */
+.contact-me {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  text-align: center;
+  color: #285172;
+  background: #d4efef;
+}
+
+.contact-me-h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #285172;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-me-hr {
+  border: 2px solid #285172;
+  max-width: 250px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* ----- Font awesome icon elements ----- */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: 36px;
+}
+
+.fa-github {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-envelope {
+  background: #007bb5;
+  color: white;
+}
+
+/* ----- Footer specific elements ----- */
+.footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #285172;
+}
+
+/* ----- Link styles ----- */
+a:link { color: #285172; text-decoration: none;}
+a:visited { color: #285172; }
+a:hover { color: #3c4346; }
+a:active { color: #3c4346; }
+a:hover {
+	text-decoration: underline;	
+}
