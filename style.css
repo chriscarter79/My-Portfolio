@@ -10,6 +10,15 @@ body {
   
 }
 
+/* ----- Link styles ----- */
+a:link { color: #285172; text-decoration: none;}
+a:visited { color: #285172; }
+a:hover { color: #3c4346; }
+a:active { color: #3c4346; }
+a:hover {
+	text-decoration: underline;	
+}
+
 /* ----- Header specific elements ----- */
 header {
   margin-right: auto;
@@ -160,6 +169,13 @@ header {
   color: white;
 }
 
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; }
+a:hover { color: white; }
+a:active { color: white; }
+a:hover {
+	text-decoration: none;	
+}
 /* ----- Footer specific elements ----- */
 .footer {
   margin-right: auto;
@@ -168,13 +184,4 @@ header {
   text-align: center;
   color: #fff;
   background-color: #285172;
-}
-
-/* ----- Link styles ----- */
-a:link { color: #285172; text-decoration: none;}
-a:visited { color: #285172; }
-a:hover { color: #3c4346; }
-a:active { color: #3c4346; }
-a:hover {
-	text-decoration: underline;	
 }
