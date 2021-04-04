@@ -169,11 +169,11 @@ header {
   color: white;
 }
 
-a:link { color: white; text-decoration: none;}
-a:visited { color: white; }
-a:hover { color: white; }
-a:active { color: white; }
-a:hover {
+.fa:link { color: white; text-decoration: none;}
+.fa:visited { color: white; }
+.fhover { color: white; }
+.factive { color: white; }
+.fhover {
 	text-decoration: none;	
 }
 /* ----- Footer specific elements ----- */
