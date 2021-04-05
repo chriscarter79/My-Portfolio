@@ -63,7 +63,7 @@ header {
   margin: 0; 
 }
 
-.head-h3  {
+.head-p  {
   font-size: 1.5em;
   font-weight: 400;
   color: white;
@@ -184,4 +184,8 @@ header {
   text-align: center;
   color: #fff;
   background-color: #285172;
+}
+
+.copyright {
+  font-weight: lighter;
 }
