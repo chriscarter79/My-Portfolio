@@ -10,4 +10,4 @@ The goal of the page is simply to display text and images, have some minor navig
 * CSS3
 
 ## Page Preview
-![Page Preview](img/My-Portfolio.png)
+![Page Preview](images/My-Portfolio.png)
